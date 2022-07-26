@@ -1,8 +1,6 @@
-using ApiPresenters;
 using InMemoryPersistence;
-using UseCases;
-using UseCases.Data;
-using UseCases.Presenters;
+using Interactors.DataAccessInterfaces;
+using Interactors.UseCases.GetFiveDaysForecast;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,7 +11,6 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddScoped<IGetFiveDaysForecastPresenter, WeatherForecastPresenter>();
 builder.Services.AddScoped<IGetFiveDaysForecastUseCase, GetFiveDaysForecastUseCase>();
 builder.Services.AddScoped<IForecastFetcher, ForecastFetcher>();
 

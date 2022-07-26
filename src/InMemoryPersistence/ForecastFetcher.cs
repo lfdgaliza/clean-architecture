@@ -1,5 +1,5 @@
 ﻿using Entities;
-using UseCases.Data;
+using Interactors.DataAccessInterfaces;
 
 namespace InMemoryPersistence;
 public class ForecastFetcher : IForecastFetcher

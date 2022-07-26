@@ -1,4 +1,4 @@
-﻿namespace UseCases.Presenters.Vos;
+﻿namespace Entities.Presenters.Vos;
 
 public interface IPresenterResponse
 {

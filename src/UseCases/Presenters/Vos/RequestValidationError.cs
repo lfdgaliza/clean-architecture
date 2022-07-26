@@ -1,2 +1,2 @@
-﻿namespace UseCases.Presenters.Vos;
+﻿namespace Entities.Presenters.Vos;
 public record RequestValidationError(string message);
