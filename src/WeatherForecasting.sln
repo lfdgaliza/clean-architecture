@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api", "WebApplication1\Api.csproj", "{890D3BBA-1A66-48BC-AB12-D321BA33ABB9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api", "Api\Api.csproj", "{890D3BBA-1A66-48BC-AB12-D321BA33ABB9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entities", "UseCases\Entities.csproj", "{8C3F92CF-11F7-43C8-8B86-C313556B750A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeatherForecasting.Entities", "UseCases\WeatherForecasting.Entities.csproj", "{8C3F92CF-11F7-43C8-8B86-C313556B750A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{028D8C04-C846-43F5-981E-C788A7C2ADA9}"
 EndProject
@@ -13,13 +13,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentatio
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Persistence", "Persistence", "{7E24C079-198B-4D90-81E4-3CFA89550703}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{C3A5E85F-367C-4B8C-9BC7-E73DD10F439A}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InMemoryPersistence", "InMemoryPersistence\InMemoryPersistence.csproj", "{0074A632-3A0C-4CDB-84E2-9EF566F0418C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeatherForecasting.Tests", "WeatherForecasting.Tests\WeatherForecasting.Tests.csproj", "{CD188B44-A107-43A2-9C8C-51950C618CBE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeatherForecasting.Entities.Tests", "WeatherForecasting.Tests\WeatherForecasting.Entities.Tests.csproj", "{CD188B44-A107-43A2-9C8C-51950C618CBE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interactors", "Interactors\Interactors.csproj", "{4FC5AC29-A1F6-4378-AC54-C0AAC9BB942C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeatherForecasting.Interactors", "Interactors\WeatherForecasting.Interactors.csproj", "{4FC5AC29-A1F6-4378-AC54-C0AAC9BB942C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{67A9043B-2113-409B-9083-FBEF05AE6D2A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,9 +55,9 @@ Global
 		{890D3BBA-1A66-48BC-AB12-D321BA33ABB9} = {3E0DBA6D-E54E-4E89-BC8B-C684DBA44BB8}
 		{3E0DBA6D-E54E-4E89-BC8B-C684DBA44BB8} = {028D8C04-C846-43F5-981E-C788A7C2ADA9}
 		{7E24C079-198B-4D90-81E4-3CFA89550703} = {028D8C04-C846-43F5-981E-C788A7C2ADA9}
-		{C3A5E85F-367C-4B8C-9BC7-E73DD10F439A} = {028D8C04-C846-43F5-981E-C788A7C2ADA9}
 		{0074A632-3A0C-4CDB-84E2-9EF566F0418C} = {7E24C079-198B-4D90-81E4-3CFA89550703}
-		{CD188B44-A107-43A2-9C8C-51950C618CBE} = {C3A5E85F-367C-4B8C-9BC7-E73DD10F439A}
+		{CD188B44-A107-43A2-9C8C-51950C618CBE} = {67A9043B-2113-409B-9083-FBEF05AE6D2A}
+		{67A9043B-2113-409B-9083-FBEF05AE6D2A} = {028D8C04-C846-43F5-981E-C788A7C2ADA9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AF853F10-EA6A-4A49-82B6-34570E1D7EAA}

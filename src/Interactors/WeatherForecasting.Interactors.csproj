@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\UseCases\Entities.csproj" />
+    <ProjectReference Include="..\UseCases\WeatherForecasting.Entities.csproj" />
   </ItemGroup>
 
 </Project>

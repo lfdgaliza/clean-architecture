@@ -7,8 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Interactors\Interactors.csproj" />
-    <ProjectReference Include="..\UseCases\Entities.csproj" />
+    <ProjectReference Include="..\Interactors\WeatherForecasting.Interactors.csproj" />
   </ItemGroup>
 
 </Project>

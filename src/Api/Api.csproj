@@ -12,7 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\InMemoryPersistence\InMemoryPersistence.csproj" />
-    <ProjectReference Include="..\UseCases\Entities.csproj" />
+    <ProjectReference Include="..\Interactors\WeatherForecasting.Interactors.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,7 +1,7 @@
 ﻿using Entities;
 using FluentAssertions;
 
-namespace WeatherForecasting.Tests.EntitiesTest;
+namespace WeatherForecasting.Entities.Tests;
 public class WeatherForecastTests
 {
     [Theory]
